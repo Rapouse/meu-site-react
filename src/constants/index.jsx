@@ -48,26 +48,3 @@ export const logos = [
   { src: '/meu-site-react/assets/img-premiacao-awards-ai-excellenceaward-2023.png', alt: 'AI Excellence Award Winner 2023' },
   { src: '/meu-site-react/assets/img-premiacao-awards-good-design.png', alt: 'Good Design Awards' },
 ];
-
-export const reviews = [
-  {
-    name: "Beatriz Miranda Gado",
-    date: "17 Agosto 2024",
-    review: "A Vivian é a melhor! Atendimento top",
-    rating: 5,
-  },
-  {
-    name: "Jefferson S Pecanha",
-    date: "12 Abril 2024",
-    review:
-      "Fui muito bem atendido desde o primeiro momento quando falei por telefone, depois quando cheguei ao local e principalmente pelo profissionalismo e conhecimento que tiveram em relação ao meu caso.",
-    rating: 5,
-  },
-  {
-    name: "Valter Antonio da Silva",
-    date: "2 Abril 2024",
-    review:
-      "Qualidade e eficiência tenho grande estima a todos pela receptividade.",
-    rating: 5,
-  },
-];
