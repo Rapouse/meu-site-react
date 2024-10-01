@@ -1,7 +1,7 @@
 const BannerSection = () => {
   return (
     <section
-      className="relative bg-[url('public/assets/Ouviden-Espaco-Relaxante-e-Confortavel-em-Moema.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen md:min-h-[500px] lg:min-h-[600px]"
+      className="relative bg-[url('/meu-site-react/assets/Ouviden-Espaco-Relaxante-e-Confortavel-em-Moema.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen md:min-h-[500px] lg:min-h-[600px]"
       role="banner"
       aria-label="Seção de banner sobre serviços e aparelhos auditivos da Ouviden em Moema"
     >

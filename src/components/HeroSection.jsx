@@ -66,7 +66,7 @@ const HeroSection = () => {
     };
 
     return (
-        <main className="relative bg-[url('public/assets/Ouviden-Moema.jpg')] bg-cover bg-no-repeat bg-center min-h-screen flex items-center justify-center">
+        <main className="relative bg-[url('/meu-site-react/assets/Ouviden-Moema.jpg')] bg-cover bg-no-repeat bg-center min-h-screen flex items-center justify-center">
             {/* Overlay escuro */}
             <div className="absolute inset-0 bg-black/50 z-0" aria-hidden="true"></div>
 
@@ -109,7 +109,7 @@ const HeroSection = () => {
                             className="w-full h-auto max-h-[400px] object-cover rounded-lg"
                             aria-label="Apresentação da Ouviden Moema"
                         >
-                            <source src="public/assets/Ouviden-Moema.mp4" type="video/mp4" />
+                            <source src="/meu-site-react/assets/Ouviden-Moema.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 

@@ -19,7 +19,7 @@
           <article className="w-full sm:w-1/2 lg:w-1/4 p-4 flex flex-col">
             <div className="shadow-lg rounded-lg overflow-hidden border border-gray-200 flex-grow">
               <img
-                src="public/assets/Ouviden-Unidade-SantoAndre.jpg"
+                src="/meu-site-react/assets/Ouviden-Unidade-SantoAndre.jpg"
                 alt="Ouviden no ABC, Santo André / SP"
                 className="w-full h-48 sm:h-56 lg:h-64 object-cover"
               />
@@ -60,7 +60,7 @@
           <article className="w-full sm:w-1/2 lg:w-1/4 p-4 flex flex-col">
             <div className="shadow-lg rounded-lg overflow-hidden border border-gray-200 flex-grow">
               <img
-                src="public/assets/Ouviden-Unidade-Atibaia.jpg"
+                src="/meu-site-react/assets/Ouviden-Unidade-Atibaia.jpg"
                 alt="Ouviden em Atibaia, São Paulo"
                 className="w-full h-48 sm:h-56 lg:h-64 object-cover"
               />
@@ -101,7 +101,7 @@
           <article className="w-full sm:w-1/2 lg:w-1/4 p-4 flex flex-col">
             <div className="shadow-lg rounded-lg overflow-hidden border border-gray-200 flex-grow">
               <img
-                src="public/assets/Ouviden-Unidade-Moema-Fachada.jpg"
+                src="/meu-site-react/assets/Ouviden-Unidade-Moema-Fachada.jpg"
                 alt="Ouviden em Moema, São Paulo"
                 className="w-full h-48 sm:h-56 lg:h-64 object-cover"
               />

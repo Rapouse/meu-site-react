@@ -19,25 +19,25 @@ const FeatureSection = () => {
       {/* Seção de Imagens */}
       <div className="flex flex-col lg:flex-row mt-10 lg:mt-20 justify-center items-center">
         <figure className="w-full lg:w-1/2 p-2 max-w-lg">
-          <img src="public/assets/Ouviden-Unidade-Moema.jpg" alt="Fachada da clínica Ouviden em Moema" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
+          <img src="/meu-site-react/assets/Ouviden-Unidade-Moema.jpg" alt="Fachada da clínica Ouviden em Moema" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
           <figcaption className="sr-only">Fachada da clínica Ouviden em Moema</figcaption>
         </figure>
 
         <div className="grid grid-cols-2 gap-4 lg:w-1/2 p-2 max-w-lg">
           <figure>
-            <img src="public/assets/Ouviden-Moema-Exame-Auditivo.jpg" alt="Área de exames auditivos" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
+            <img src="/meu-site-react/assets/Ouviden-Moema-Exame-Auditivo.jpg" alt="Área de exames auditivos" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
             <figcaption className="sr-only">Área de exames auditivos na clínica Ouviden Moema</figcaption>
           </figure>
           <figure>
-            <img src="public/assets/Ouviden-Exames-e-Servicos-Audiologicos-em-Moema.jpg" alt="Serviços audiológicos da Ouviden" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
+            <img src="/meu-site-react/assets/Ouviden-Exames-e-Servicos-Audiologicos-em-Moema.jpg" alt="Serviços audiológicos da Ouviden" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
             <figcaption className="sr-only">Serviços audiológicos da clínica Ouviden Moema</figcaption>
           </figure>
           <figure>
-            <img src="public/assets/Ouviden-Espaco-Relaxante-e-Confortavel-em-Moema.jpg" alt="Espaço relaxante da Ouviden" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
+            <img src="/meu-site-react/assets/Ouviden-Espaco-Relaxante-e-Confortavel-em-Moema.jpg" alt="Espaço relaxante da Ouviden" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
             <figcaption className="sr-only">Espaço relaxante e confortável na Ouviden Moema</figcaption>
           </figure>
           <figure>
-            <img src="public/assets/Ouviden-Atendimento-Audiologico-em-Moema.jpg" alt="Atendimento audiológico da Ouviden" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
+            <img src="/meu-site-react/assets/Ouviden-Atendimento-Audiologico-em-Moema.jpg" alt="Atendimento audiológico da Ouviden" className="w-full h-full object-cover rounded-lg shadow-lg aspect-square" />
             <figcaption className="sr-only">Atendimento audiológico na clínica Ouviden Moema</figcaption>
           </figure>
         </div>
