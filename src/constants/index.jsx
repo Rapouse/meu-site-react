@@ -38,15 +38,15 @@ export const navItems = [
 ];
 
 export const logos = [
-  { src: 'src/assets/img-premiacao-awards-2023.png', alt: 'Globee Awards Gold Winner 2023' },
-  { src: 'src/assets/img-premiacao-awards-top-workplaces-2023.png', alt: 'Top Workplaces Culture Excellence Winner 2023' },
-  { src: 'src/assets/img-premiacao-awards-aba-bronze-stevie-2023.png', alt: 'Stevie Winner 2023' },
-  { src: 'src/assets/img-premiacao-awards-muse-design-2023-silver.png', alt: 'Muse Design Winner 2023' },
-  { src: 'src/assets/img-premiacao-awards-excellence-custserv-award-2023.png', alt: 'Excellence Custserv Award 2023' },
-  { src: 'src/assets/img-premiacao-awards-ces-innovation-2023.png', alt: 'CES Innovation Awards 2023' },
-  { src: 'src/assets/img-premiacao-awards-reddot-award-2023-winner.png', alt: 'Reddot Award Winner 2023' },
-  { src: 'src/assets/img-premiacao-awards-ai-excellenceaward-2023.png', alt: 'AI Excellence Award Winner 2023' },
-  { src: 'src/assets/img-premiacao-awards-good-design.png', alt: 'Good Design Awards' },
+  { src: 'public/assets/img-premiacao-awards-2023.png', alt: 'Globee Awards Gold Winner 2023' },
+  { src: 'public/assets/img-premiacao-awards-top-workplaces-2023.png', alt: 'Top Workplaces Culture Excellence Winner 2023' },
+  { src: 'public/assets/img-premiacao-awards-aba-bronze-stevie-2023.png', alt: 'Stevie Winner 2023' },
+  { src: 'public/assets/img-premiacao-awards-muse-design-2023-silver.png', alt: 'Muse Design Winner 2023' },
+  { src: 'public/assets/img-premiacao-awards-excellence-custserv-award-2023.png', alt: 'Excellence Custserv Award 2023' },
+  { src: 'public/assets/img-premiacao-awards-ces-innovation-2023.png', alt: 'CES Innovation Awards 2023' },
+  { src: 'public/assets/img-premiacao-awards-reddot-award-2023-winner.png', alt: 'Reddot Award Winner 2023' },
+  { src: 'public/assets/img-premiacao-awards-ai-excellenceaward-2023.png', alt: 'AI Excellence Award Winner 2023' },
+  { src: 'public/assets/img-premiacao-awards-good-design.png', alt: 'Good Design Awards' },
 ];
 
 export const reviews = [

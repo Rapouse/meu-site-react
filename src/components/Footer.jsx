@@ -32,7 +32,7 @@ const Footer = () => {
           {/* Distribuidor Autorizado */}
           <div className="w-full lg:w-1/3 mb-6 lg:mb-0 text-center lg:text-left">
             <h2 className="text-lg font-semibold">Distribuidor Autorizado</h2>
-            <img src="src/assets/Starkey-Logo.svg" alt="Distribuidor Autorizado Starkey" className="h-20 sm:h-24 lg:h-28 mx-auto lg:mx-0 my-4" />
+            <img src="public/assets/Starkey-Logo.svg" alt="Distribuidor Autorizado Starkey" className="h-20 sm:h-24 lg:h-28 mx-auto lg:mx-0 my-4" />
           </div>
 
           {/* Opções */}
@@ -105,7 +105,7 @@ const Footer = () => {
 
         {/* Informações Legais e Redes Sociais */}
         <div className="flex flex-wrap justify-between items-center">
-          <img src="src/assets/Logo-Ouviden.png" alt="Ouviden Logo" className="h-12 sm:h-16 lg:h-20 mx-auto lg:mx-0 mb-4 lg:mb-0" />
+          <img src="public/assets/Logo-Ouviden.png" alt="Ouviden Logo" className="h-12 sm:h-16 lg:h-20 mx-auto lg:mx-0 mb-4 lg:mb-0" />
 
           <div className="text-center flex-1">
             <p className="text-sm sm:text-base lg:text-lg font-medium">OUVIDEN SOLUÇÕES AUDITIVAS LTDA - CNPJ: 32.842.426/0002-60</p>

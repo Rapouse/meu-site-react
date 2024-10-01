@@ -1,4 +1,3 @@
-import logo from "../assets/Logo-Ouviden.png";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { navItems } from "../constants";
@@ -23,7 +22,7 @@ const Navbar = () => {
 
           <div className="flex items-center flex-shrink-0">
             <a href="/" aria-label="Home">
-              <img className="h-10 w-auto sm:h-12 md:h-14 lg:h-auto mr-2" src={logo} alt="Logotipo da Ouviden" />
+              <img className="h-10 w-auto sm:h-12 md:h-14 lg:h-auto mr-2" src="public/assets/Logo-Ouviden.png" alt="Logotipo da Ouviden" />
             </a>
           </div>
 

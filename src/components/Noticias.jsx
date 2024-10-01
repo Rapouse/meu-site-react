@@ -13,7 +13,7 @@ const Noticias = () => {
         {/* Artigo 1 */}
         <article className="w-full sm:w-1/2 lg:w-1/4 p-4 flex flex-col justify-between">
           <img
-            src="src/assets/Ouviden-Aparelhos-Auditivos.jpg"
+            src="public/assets/Ouviden-Aparelhos-Auditivos.jpg"
             alt="Ouviden no ABC, Santo André / SP"
             className="w-full h-48 sm:h-56 lg:h-64 object-cover rounded-xl"
           />
@@ -36,7 +36,7 @@ const Noticias = () => {
         {/* Artigo 2 */}
         <article className="w-full sm:w-1/2 lg:w-1/4 p-4 flex flex-col justify-between">
           <img
-            src="src/assets/Ouviden-Zumbido-no-Ouvido.jpg"
+            src="public/assets/Ouviden-Zumbido-no-Ouvido.jpg"
             alt="Zumbido no ouvido tem cura?"
             className="w-full h-48 sm:h-56 lg:h-64 object-cover rounded-xl"
           />
@@ -59,7 +59,7 @@ const Noticias = () => {
         {/* Artigo 3 */}
         <article className="w-full sm:w-1/2 lg:w-1/4 p-4 flex flex-col justify-between">
           <img
-            src="src/assets/Ouviden-Dicas-Aparelhos-Auditivos.jpg"
+            src="public/assets/Ouviden-Dicas-Aparelhos-Auditivos.jpg"
             alt="Dicas sobre pilhas para aparelhos auditivos"
             className="w-full h-48 sm:h-56 lg:h-64 object-cover rounded-xl"
           />
