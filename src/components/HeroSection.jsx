@@ -70,14 +70,14 @@ const HeroSection = () => {
             {/* Overlay escuro */}
             <div className="absolute inset-0 bg-black/50 z-0" aria-hidden="true"></div>
 
-            <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between w-full max-w-6xl px-4 md:px-6 lg:px-8">
-                <section className="lg:w-1/2 text-white text-center lg:text-left">
+            <div className="relative z-10 flex flex-col lg:flex-row items-center lg:items-start justify-between w-full max-w-6xl px-4 md:px-6 lg:px-8 lg:gap-8">
+                <section className="w-full lg:w-1/2 text-white text-center lg:text-left">
                     <header>
-                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold leading-tight">
                             Ouviden Aparelhos Auditivos em Moema - São Paulo
                         </h1>
                     </header>
-                    <p className="mt-4 text-sm sm:text-base md:text-lg font-semibold">
+                    <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl font-semibold">
                         Alameda dos Nhambiquaras, 1254, Moema - São Paulo
                     </p>
                     <div className="mt-8 flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 justify-center lg:justify-start">
@@ -86,27 +86,27 @@ const HeroSection = () => {
                             target="_blank"
                             aria-label="Como chegar à Ouviden Moema"
                             rel="noopener noreferrer"
-                            className="flex justify-center items-center text-sm sm:text-base font-bold bg-gradient-to-r from-[#32A0E4] to-[#0870AFCC] py-3 px-6 rounded-full transition-opacity duration-300 hover:opacity-75 w-full sm:w-auto"
+                            className="flex justify-center items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold bg-gradient-to-r from-[#32A0E4] to-[#0870AFCC] py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-opacity duration-300 hover:opacity-75 w-full sm:w-auto whitespace-nowrap"
                         >
-                            COMO CHEGAR <MapPinned className="ml-2 text-2xl" />
+                            COMO CHEGAR <MapPinned className="ml-2 text-lg sm:text-xl lg:text-xl xl:text-2xl" />
                         </a>
                         <a
                             href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER"
                             aria-label="Fale conosco via WhatsApp"
-                            className="flex justify-center items-center text-sm sm:text-base font-bold bg-gradient-to-r from-[#FFC71E] to-[#D6A000] py-3 px-6 rounded-full transition-opacity duration-300 hover:opacity-75 w-full sm:w-auto"
+                            className="flex justify-center items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold bg-gradient-to-r from-[#FFC71E] to-[#D6A000] py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-opacity duration-300 hover:opacity-75 w-full sm:w-auto whitespace-nowrap"
                         >
-                            CHAMAR NO WHATSAPP <FaWhatsapp className="ml-2 text-2xl" />
+                            CHAMAR NO WHATSAPP <FaWhatsapp className="ml-2 text-lg sm:text-xl lg:text-xl xl:text-2xl" />
                         </a>
                     </div>
                 </section>
-                <section className="lg:w-1/2 flex justify-center lg:justify-end mt-10 lg:mt-0">
-                    <div className="w-full max-w-lg rounded-xl overflow-hidden">
+                <section className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-8 sm:mt-10 lg:mt-0">
+                    <div className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-full rounded-xl overflow-hidden px-4 sm:px-0">
                         <video
                             ref={videoRef}
                             loop
                             muted={isMuted}
                             onTimeUpdate={handleTimeUpdate}
-                            className="w-full h-auto max-h-[400px] object-cover rounded-lg"
+                            className="w-full h-auto max-h-[200px] sm:max-h-[300px] md:max-h-[350px] lg:max-h-[400px] xl:max-h-[500px] object-cover rounded-lg"
                             aria-label="Apresentação da Ouviden Moema"
                         >
                             <source src="/meu-site-react/assets/Ouviden-Moema.mp4" type="video/mp4" />
@@ -114,13 +114,17 @@ const HeroSection = () => {
                         </video>
 
                         {/* Controles personalizados */}
-                        <div className="flex items-center bg-white text-[#127aba] p-4 space-x-4">
+                        <div className="flex items-center bg-white text-[#127aba] p-2 sm:p-3 md:p-4 space-x-2 sm:space-x-4">
                             <button onClick={togglePlayPause} aria-label={isPlaying ? "Pausar" : "Reproduzir"}>
-                                {isPlaying ? <FaPause /> : <FaPlay />}
+                                {isPlaying ? (
+                                    <FaPause className="text-base sm:text-lg md:text-xl" />
+                                ) : (
+                                    <FaPlay className="text-base sm:text-lg md:text-xl" />
+                                )}
                             </button>
                             <div
                                 ref={progressRef}
-                                className="flex-1 h-2 bg-[#e9e9eb] cursor-pointer mx-4"
+                                className="flex-1 h-1 sm:h-2 bg-[#e9e9eb] cursor-pointer mx-2 sm:mx-4"
                                 onClick={handleProgressClick}
                             >
                                 <div
@@ -129,10 +133,18 @@ const HeroSection = () => {
                                 ></div>
                             </div>
                             <button onClick={toggleMute} aria-label={isMuted ? "Ativar som" : "Desativar som"}>
-                                {isMuted ? <FaVolumeMute /> : <FaVolumeUp />}
+                                {isMuted ? (
+                                    <FaVolumeMute className="text-base sm:text-lg md:text-xl" />
+                                ) : (
+                                    <FaVolumeUp className="text-base sm:text-lg md:text-xl" />
+                                )}
                             </button>
                             <button onClick={toggleFullscreen} aria-label={isFullscreen ? "Sair do modo tela cheia" : "Modo tela cheia"}>
-                                {isFullscreen ? <FaCompress /> : <FaExpand />}
+                                {isFullscreen ? (
+                                    <FaCompress className="text-base sm:text-lg md:text-xl" />
+                                ) : (
+                                    <FaExpand className="text-base sm:text-lg md:text-xl" />
+                                )}
                             </button>
                         </div>
                     </div>

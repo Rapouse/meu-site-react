@@ -1,7 +1,7 @@
 export const navItems = [
   { label: "Início", href: "https://www.ouviden.com.br/" },
   {
-    label: "Ouviden", href: "/",
+    label: "Ouviden", href: "https://www.ouviden.com.br/ouviden/",
     subItems: [
       { label: "Ouviden Atibaia", href: "https://www.ouviden.com.br/aparelhos-auditivos-atibaia/" },
       { label: "Ouviden Santo André", href: "https://www.ouviden.com.br/aparelhos-auditivos-santo-andre/" },
@@ -21,7 +21,7 @@ export const navItems = [
     ]
   },
   {
-    label: "Exames", href: "/",
+    label: "Exames", href: "https://www.ouviden.com.br/servicos-e-exames-audiologicos/",
     subItems: [
       { label: "Exame de Audiometria", href: "https://www.ouviden.com.br/exame-audiometria/" },
       { label: "Exame de Imitanciometria", href: "https://www.ouviden.com.br/exame-de-imitanciometria/" },
@@ -30,7 +30,7 @@ export const navItems = [
     ]
   },
   {
-    label: "Saúde Auditiva", href: "/",
+    label: "Saúde Auditiva", href: "https://www.ouviden.com.br/blog/",
     subItems: [
       { label: "Zumbido", href: "https://www.ouviden.com.br/zumbido-no-ouvido/" },
     ]
