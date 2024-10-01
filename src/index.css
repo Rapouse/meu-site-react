@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }   
+}
+
+.animate-scroll {
+    display: flex;
+    animation: scroll 30s linear infinite;
+}
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    color-scheme: light;
+    color: #3c3c3b;
+}
+
+.overpass {
+    font-family: 'Overpass', sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch; 
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-in-out;
+    will-change: scroll-position, transform;
+}
+
+body {
+    transform: translateZ(0); 
+    backface-visibility: hidden; 
+}
