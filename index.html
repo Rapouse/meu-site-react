@@ -26,8 +26,34 @@
 
   <!-- Favicon -->
   <link rel="icon" href="src/assets/favicon-Ouviden.ico" type="image/x-icon" />
-  <script type="module" crossorigin src="/meu-site-react/assets/index-DZL8H-qZ.js"></script>
-  <link rel="stylesheet" crossorigin href="/meu-site-react/assets/index-CYP93IbB.css">
+
+
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+
+  <style>
+    html,
+    body {
+      font-family: 'Montserrat', sans-serif;
+      scroll-behavior: smooth;
+      scroll-snap-type: y proximity;
+      transition: transform 0.3s ease-in-out;
+      will-change: transform;
+      overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .overpass {
+      font-family: 'Overpass', sans-serif;
+    }
+  </style>
+
+  <script type="module" crossorigin src="/meu-site-react/assets/index-TLcu4Yzn.js"></script>
+  <link rel="stylesheet" crossorigin href="/meu-site-react/assets/index-XGltcpP3.css">
 </head>
 
 <body>
