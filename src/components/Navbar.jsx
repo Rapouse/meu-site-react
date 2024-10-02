@@ -48,17 +48,14 @@ const Navbar = () => {
   }, [mobileDrawerOpen]);
 
   return (
-    <nav
-      className="sticky top-0 z-50 bg-white backdrop-blur-lg border-b border-slate-300"
-      aria-label="Main navigation"
-    >
+    <nav className="sticky top-0 z-50 bg-white backdrop-blur-lg border-b border-slate-300" aria-label="Main navigation">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto flex justify-between items-center py-4 sm:py-6 lg:py-8">
         {/* Logotipo */}
         <div className="flex items-center flex-shrink-0">
           <a href="/" aria-label="Home">
             <img
-              className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-auto object-contain mr-4 max-w-[250px] sm:max-w-[250px] md:max-w-[250px] lg:max-w-[250px] xl:max-w-[250px]"
-              src="/meu-site-react/assets/Logo-Ouviden.png" // PNG otimizado
+              className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-auto object-contain mr-4 max-w-[250px]"
+              src="/meu-site-react/assets/Logo-Ouviden.png"
               alt="Logotipo da Ouviden"
             />
           </a>
@@ -72,14 +69,14 @@ const Navbar = () => {
           {navItems.map((item, index) => (
             <li key={index} className="relative">
               <button
-                className="flex items-center text-base sm:text-lg md:text-lg lg:text-xl xl:text-2xl text-black hover:text-[#239ddb] focus:outline-none"
+                className="flex items-center text-sm sm:text-base md:text-base lg:text-base xl:text-lg text-black hover:text-[#239ddb] focus:outline-none"
                 onClick={() => toggleDropdown(index)}
                 aria-haspopup={item.subItems ? "true" : "false"}
                 aria-expanded={openDropdownIndex === index ? "true" : "false"}
               >
                 {item.label}
                 {item.subItems && (
-                  <span className="ml-2">
+                  <span className="ml-1">
                     {openDropdownIndex === index ? (
                       <ChevronUp className="w-4 h-4" />
                     ) : (
@@ -107,11 +104,11 @@ const Navbar = () => {
         </ul>
 
         {/* Botão "CONTATO" no Desktop */}
-        <div className="hidden lg:flex justify-center space-x-6 xl:space-x-12 items-center">
+        <div className="hidden lg:flex justify-center space-x-4 xl:space-x-6 items-center">
           <a
             href="#"
             aria-label="Contato via WhatsApp"
-            className="flex items-center py-2 sm:py-3 px-4 sm:px-6 font-bold text-base sm:text-lg lg:text-base xl:text-base text-white rounded-2xl bg-gradient-to-b from-[#32A0E4] to-[#0870AFCC] hover:opacity-75 transition-colors duration-200"
+            className="flex items-center py-2 px-5 font-bold text-sm lg:text-base xl:text-base text-white rounded-2xl bg-gradient-to-b from-[#32A0E4] to-[#0870AFCC] hover:opacity-75 transition-colors duration-200"
           >
             CONTATO <FaWhatsapp className="ml-2 text-lg" />
           </a>
@@ -144,8 +141,8 @@ const Navbar = () => {
           <div className="flex items-center justify-between p-6 sm:p-8 bg-white border-b border-gray-200">
             <a href="/" aria-label="Home">
               <img
-                className="h-12 sm:h-14 lg:h-auto w-auto object-contain max-w-[250px] sm:max-w-[250px] md:max-w-[250px] lg:max-w-[250px]"
-                src="/meu-site-react/assets/Logo-Ouviden.png" // PNG otimizado
+                className="h-12 sm:h-14 lg:h-auto w-auto object-contain max-w-[250px]"
+                src="/meu-site-react/assets/Logo-Ouviden.png"
                 alt="Logotipo da Ouviden"
               />
             </a>
@@ -162,12 +159,9 @@ const Navbar = () => {
           <div className="flex-1 overflow-y-auto bg-white">
             <ul className="w-full p-6 sm:p-8">
               {navItems.map((item, index) => (
-                <li
-                  key={index}
-                  className="py-3 sm:py-4 border-b border-gray-200"
-                >
+                <li key={index} className="py-3 sm:py-4 border-b border-gray-200">
                   <button
-                    className="flex justify-between items-center w-full text-base sm:text-lg md:text-lg text-black hover:text-[#239ddb] focus:outline-none"
+                    className="flex justify-between items-center w-full text-lg sm:text-base md:text-base text-black hover:text-[#239ddb] focus:outline-none"
                     onClick={() => toggleDropdown(index)}
                     aria-haspopup={item.subItems ? "true" : "false"}
                     aria-expanded={openDropdownIndex === index ? "true" : "false"}
@@ -175,11 +169,7 @@ const Navbar = () => {
                     <span>{item.label}</span>
                     {item.subItems && (
                       <span className="ml-2">
-                        {openDropdownIndex === index ? (
-                          <ChevronUp className="w-4 h-4" />
-                        ) : (
-                          <ChevronDown className="w-4 h-4" />
-                        )}
+                        {openDropdownIndex === index ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
                       </span>
                     )}
                   </button>
@@ -189,7 +179,7 @@ const Navbar = () => {
                         <li key={subIndex}>
                           <a
                             href={subItem.href}
-                            className="block py-2 px-4 text-sm sm:text-base md:text-lg text-black hover:bg-gray-200 hover:text-[#239ddb]"
+                            className="block py-2 px-4 text-sm sm:text-base text-black hover:bg-gray-200 hover:text-[#239ddb]"
                           >
                             {subItem.label}
                           </a>
