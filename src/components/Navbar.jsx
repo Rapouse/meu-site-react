@@ -106,7 +106,7 @@ const Navbar = () => {
         {/* Botão "CONTATO" no Desktop */}
         <div className="hidden lg:flex justify-center space-x-4 xl:space-x-6 items-center">
           <a
-            href="#"
+            href="https://api.whatsapp.com/send?phone=5511916093631"
             aria-label="Contato via WhatsApp"
             className="flex items-center py-2 px-5 font-bold text-sm lg:text-base xl:text-base text-white rounded-2xl bg-gradient-to-b from-[#32A0E4] to-[#0870AFCC] hover:opacity-75 transition-colors duration-200"
           >
@@ -194,7 +194,7 @@ const Navbar = () => {
             {/* Botão "CONTATO" no Menu Mobile */}
             <div className="w-full px-6 sm:px-8 pb-6 sm:pb-8">
               <a
-                href="#"
+                href="https://api.whatsapp.com/send?phone=5511916093631"
                 aria-label="Contato via WhatsApp"
                 className="flex justify-center items-center w-full text-base sm:text-lg py-3 px-6 sm:px-8 text-white rounded-md bg-gradient-to-b from-[#32A0E4] to-[#0870AFCC] hover:opacity-75 transition-colors duration-200"
               >

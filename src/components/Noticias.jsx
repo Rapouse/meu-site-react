@@ -26,7 +26,8 @@ const Noticias = () => {
                 href="https://www.ouviden.com.br/ouviden-aparelhos-auditivos-um-novo-jeito-de-cuidar-da-saude-auditiva/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold overpass py-2 px-4 text-[#127aba] rounded-full hover:bg-[#239ddb] hover:text-white transition duration-300">
+                className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold overpass py-2 px-4 text-[#127aba] rounded-full hover:bg-[#239ddb] hover:text-white transition duration-300"
+              >
                 LEIA MAIS <MoveRight className="ml-2 text-sm sm:text-base lg:text-base xl:text-lg" />
               </a>
             </div>
@@ -49,7 +50,8 @@ const Noticias = () => {
                 href="https://www.ouviden.com.br/zumbido-no-ouvido/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold overpass py-2 px-4 text-[#127aba] rounded-full hover:bg-[#239ddb] hover:text-white transition duration-300">
+                className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold overpass py-2 px-4 text-[#127aba] rounded-full hover:bg-[#239ddb] hover:text-white transition duration-300"
+              >
                 LEIA MAIS <MoveRight className="ml-2 text-sm sm:text-base lg:text-base xl:text-lg" />
               </a>
             </div>
@@ -72,7 +74,8 @@ const Noticias = () => {
                 href="https://www.ouviden.com.br/dicas-sobre-pilhas-para-aparelhos-auditivos/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold overpass py-2 px-4 text-[#127aba] rounded-full hover:bg-[#239ddb] hover:text-white transition duration-300">
+                className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-bold overpass py-2 px-4 text-[#127aba] rounded-full hover:bg-[#239ddb] hover:text-white transition duration-300"
+              >
                 LEIA MAIS <MoveRight className="ml-2 text-sm sm:text-base lg:text-base xl:text-lg" />
               </a>
             </div>

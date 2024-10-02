@@ -19,7 +19,7 @@ const App = () => {
       <Noticias />
       <BannerSection />
       <Lojas />
-      <LogoCarousel/>
+      <LogoCarousel />
       <Footer />
     </>
   )

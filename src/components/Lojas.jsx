@@ -1,5 +1,4 @@
-import { Map } from 'lucide-react';
-import { Phone } from 'lucide-react';
+import { Map, Phone } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Lojas = () => {
@@ -28,7 +27,7 @@ const Lojas = () => {
               <address className="not-italic mb-4 text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl text-center">
                 Av. João Ramalho, 335, Vila Assunção <br />
                 Santo André, SP - CEP: 09030-320 <br />
-                E-mail: <a href="mailto:ouviden@ouviden.com.br" className="text-[#0870AFCC] hover:underline">ouviden@ouviden.com.br</a>
+                E-mail: <a href="mailto:ouviden@ouviden.com.br" className="text-[#0870AFCC] hover:underline focus:outline-none focus:underline">ouviden@ouviden.com.br</a>
               </address>
               <div className="flex flex-col items-center space-y-2">
                 <a
@@ -36,19 +35,22 @@ const Lojas = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Ver a localização da Ouviden no ABC, Santo André / SP no Google Maps"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#D6A000] hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#D6A000] hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#D6A000]"
+                >
                   <Map className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Localização
                 </a>
                 <a
                   href="tel:+551144364256"
                   title="Ligar para a Ouviden no ABC, Santo André"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#0870AFCC] hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#0870AFCC] hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#0870AFCC]"
+                >
                   <Phone className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Ligar (11) 4436-4256
                 </a>
                 <a
                   href="https://wa.me/5511945185253"
                   title="Conversar via WhatsApp com a Ouviden no ABC, Santo André"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-green-700 hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-green-700 hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-green-700"
+                >
                   <FaWhatsapp className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Falar no WhatsApp
                 </a>
               </div>
@@ -69,7 +71,7 @@ const Lojas = () => {
               <address className="not-italic mb-4 text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl text-center">
                 Rua José Lucas, 60, Centro <br />
                 Atibaia, SP - CEP: 12940-700 <br />
-                E-mail: <a href="mailto:atibaia@ouviden.com.br" className="text-[#0870AFCC] hover:underline">atibaia@ouviden.com.br</a>
+                E-mail: <a href="mailto:atibaia@ouviden.com.br" className="text-[#0870AFCC] hover:underline focus:outline-none focus:underline">atibaia@ouviden.com.br</a>
               </address>
               <div className="flex flex-col items-center space-y-2">
                 <a
@@ -77,19 +79,22 @@ const Lojas = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Ver a localização da Ouviden Atibaia, São Paulo no Google Maps"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#D6A000] hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#D6A000] hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#D6A000]"
+                >
                   <Map className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Localização
                 </a>
                 <a
                   href="tel:+551124271623"
                   title="Ligar para a Ouviden em Atibaia, São Paulo"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#0870AFCC] hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#0870AFCC] hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#0870AFCC]"
+                >
                   <Phone className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Ligar (11) 2427-1623
                 </a>
                 <a
                   href="https://wa.me/5511945185253"
                   title="Conversar via WhatsApp com a Ouviden em Atibaia, São Paulo"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-green-700 hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-green-700 hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-green-700"
+                >
                   <FaWhatsapp className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Falar no WhatsApp
                 </a>
               </div>
@@ -110,7 +115,7 @@ const Lojas = () => {
               <address className="not-italic mb-4 text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl text-center">
                 Alameda dos Nhambiquaras, 1254, Moema,
                 São Paulo, SP - CEP: 04090-002 <br />
-                E-mail: <a href="mailto:moema@ouviden.com.br" className="text-[#0870AFCC] hover:underline">moema@ouviden.com.br</a>
+                E-mail: <a href="mailto:moema@ouviden.com.br" className="text-[#0870AFCC] hover:underline focus:outline-none focus:underline">moema@ouviden.com.br</a>
               </address>
               <div className="flex flex-col items-center space-y-2">
                 <a
@@ -118,19 +123,22 @@ const Lojas = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Ver a localização da Ouviden em Moema, São Paulo no Google Maps"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#D6A000] hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 md:py-1 md:px-3 rounded-lg hover:bg-[#D6A000] hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#D6A000]"
+                >
                   <Map className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Localização
                 </a>
                 <a
                   href="tel:+551128944202"
                   title="Ligar para a Ouviden em Moema, São Paulo"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 rounded-lg hover:bg-[#0870AFCC] hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 rounded-lg hover:bg-[#0870AFCC] hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#0870AFCC]"
+                >
                   <Phone className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Ligar (11) 2894-4202
                 </a>
                 <a
-                  href="https://wa.me/#"
+                  href="https://wa.me/5511916093631"
                   title="Conversar via WhatsApp com a Ouviden em Moema, São Paulo"
-                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 rounded-lg hover:bg-green-700 hover:text-white transition duration-300">
+                  className="flex items-center text-sm sm:text-base lg:text-base xl:text-lg font-medium py-2 px-4 rounded-lg hover:bg-green-700 hover:text-white transition duration-300 focus:outline-none focus:ring-2 focus:ring-green-700"
+                >
                   <FaWhatsapp className="mr-2 text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl" /> Falar no WhatsApp
                 </a>
               </div>
@@ -141,7 +149,7 @@ const Lojas = () => {
 
       <footer className="my-10 text-center">
         <p className="text-sm sm:text-base lg:text-base xl:text-lg font-medium">
-          Se você não puder se deslocar até uma de nossas lojas, nossa equipe poderá realizar o atendimento em domicílio. <a href="https://www.ouviden.com.br/contato/" target="blank" title="Agendar atendimento em domicílio pela Ouviden" rel="noopener noreferrer" className="text-[#0870AFCC] hover:underline">Basta agendar aqui.</a>
+          Se você não puder se deslocar até uma de nossas lojas, nossa equipe poderá realizar o atendimento em domicílio. <a href="https://www.ouviden.com.br/contato/" target="blank" title="Agendar atendimento em domicílio pela Ouviden" rel="noopener noreferrer" className="text-[#0870AFCC] hover:underline focus:outline-none focus:underline">Basta agendar aqui.</a>
         </p>
       </footer>
     </section>
