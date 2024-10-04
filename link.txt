@@ -1,1 +1,0 @@
-<script defer async src='https://cdn.trustindex.io/loader.js?6eb966414b95119f01663452ae9'></script>
